@@ -1,4 +1,4 @@
-from server.app import create_app
+from app import create_app
 from server.models import db, User, Guest, Episode, Appearance
 
 app = create_app()

@@ -2,8 +2,8 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_jwt_extended import JWTManager
-from .config import Config
-from .models import db
+from server.config import Config
+from server.models import db
 from .controllers.auth_controller import auth_bp
 from .controllers.guest_controller import guest_bp
 from .controllers.episode_controller import episode_bp
